@@ -18,7 +18,7 @@ import com.vaadin.flow.router.RouteAlias;
  * Designer will add and remove fields with @Id mappings but does not overwrite
  * or otherwise change this file.
  */
-@PageTitle("Home")
+@PageTitle("Ulink Medical and Diagnostic Center")
 @Route(value = "Home", layout = MainLayout.class)
 @RouteAlias(value = "", layout = MainLayout.class)
 @Tag("home-view")
