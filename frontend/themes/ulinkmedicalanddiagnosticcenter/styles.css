@@ -1,0 +1,41 @@
+@import url('./main-layout.css');
+@import url('./views/services-view.css');
+@import url('./views/book-appointment-view.css');
+@import url('./views/blogs-view.css');
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');    html {
+      --lumo-primary-color: rgb(0, 136, 122);
+      --lumo-primary-color-50pct: rgba(0, 136, 122, 0.5);
+      --lumo-primary-color-10pct: rgba(0, 136, 122, 0.1);
+      --lumo-shade-5pct: rgba(57, 200, 170, 0.05);
+      --lumo-shade-10pct: rgba(57, 200, 170, 0.1);
+      --lumo-shade-20pct: rgba(57, 200, 170, 0.2);
+      --lumo-shade-30pct: rgba(57, 200, 170, 0.3);
+      --lumo-shade-40pct: rgba(57, 200, 170, 0.4);
+      --lumo-shade-50pct: rgba(57, 200, 170, 0.5);
+      --lumo-shade-60pct: rgba(57, 200, 170, 0.6);
+      --lumo-shade-70pct: rgba(57, 200, 170, 0.7);
+      --lumo-shade-80pct: rgba(57, 200, 170, 0.8);
+      --lumo-shade-90pct: rgba(57, 200, 170, 0.9);
+      --lumo-success-color-50pct: rgba(29, 124, 104, 0.5);
+      --lumo-success-color-10pct: rgba(29, 124, 104, 0.1);
+      --lumo-shade: rgb(57, 200, 170);
+      --lumo-primary-text-color: rgb(0, 136, 122);
+      --lumo-success-color: rgb(29, 124, 104);
+      --lumo-success-text-color: rgb(57, 200, 170);
+      --lumo-base-color: rgb(255, 255, 255);
+      --lumo-body-text-color: hsla(214, 0%, 17%, 0.94);
+      --lumo-border-radius: calc(var(--lumo-size-m) / 2);
+      --lumo-font-size: 1rem;
+      --lumo-font-size-xxxl: 3rem;
+      --lumo-font-size-xxl: 2.25rem;
+      --lumo-font-size-xl: 1.75rem;
+      --lumo-font-size-l: 1.375rem;
+      --lumo-font-size-m: 1.125rem;
+      --lumo-font-size-s: 1rem;
+      --lumo-font-size-xs: 0.875rem;
+      --lumo-font-size-xxs: 0.8125rem;
+      --lumo-line-height-m: 1.4;
+      --lumo-line-height-s: 1.2;
+      --lumo-line-height-xs: 1.1;
+
+    }
