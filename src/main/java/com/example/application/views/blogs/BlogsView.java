@@ -22,8 +22,8 @@ public class BlogsView extends Main implements HasComponents, HasStyle {
     public BlogsView() {
         constructUI();
 
-        imageContainer.add(new BlogsViewCard("Snow mountains under stars",
-                "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"));
+        imageContainer.add(new BlogsViewCard("Kay Dr. Lee, 𝐋𝐄𝐄bre!",
+                "https://scontent.fmnl30-1.fna.fbcdn.net/v/t39.30808-6/311572541_437462425226571_5685805153340513663_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHZbg9-K7s2aSfnrg_czzWiiOo-kMjLbhGI6j6QyMtuEbzFE1nd7WbiDuyrOhYsWpYXR5np7XKILe1GNH-AvrgF&_nc_ohc=TIs99cXpwroAX8G1PL9&_nc_ht=scontent.fmnl30-1.fna&oh=00_AT8VALLoYLJIiJZcHPEXNgfTUG-8U15nqmdEkqiHekC7tQ&oe=63518AF3"));
         imageContainer.add(new BlogsViewCard("Snow covered mountain",
                 "https://images.unsplash.com/photo-1512273222628-4daea6e55abb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"));
         imageContainer.add(new BlogsViewCard("River between mountains",
@@ -44,7 +44,7 @@ public class BlogsView extends Main implements HasComponents, HasStyle {
         container.addClassNames("items-center", "justify-between");
 
         VerticalLayout headerContainer = new VerticalLayout();
-        H2 header = new H2("Beautiful photos");
+        H2 header = new H2("See our promos");
         header.addClassNames("mb-0", "mt-xl", "text-3xl");
         Paragraph description = new Paragraph("Royalty free photos and pictures, courtesy of Unsplash");
         description.addClassNames("mb-xl", "mt-0", "text-secondary");

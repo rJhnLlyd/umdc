@@ -14,7 +14,7 @@ public class BlogsViewCard extends ListItem {
         Div div = new Div();
         div.addClassNames("bg-contrast", "flex items-center", "justify-center", "mb-m", "overflow-hidden",
                 "rounded-m w-full");
-        div.setHeight("160px");
+        div.setHeight("297px");
 
         Image image = new Image();
         image.setWidth("100%");
@@ -25,7 +25,7 @@ public class BlogsViewCard extends ListItem {
 
         Span header = new Span();
         header.addClassNames("text-xl", "font-semibold");
-        header.setText("Title");
+        header.setText("Kay Dr. Lee, 𝐋𝐄𝐄bre!");
 
         Span subtitle = new Span();
         subtitle.addClassNames("text-s", "text-secondary");
